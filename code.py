@@ -6,8 +6,8 @@ def manasa(N,A,B):
             possible.append(steps)
     print ' '.join(map(str,possible))
 
-T = int(raw_input().strip())
+test_cases = int(raw_input().strip())
 
-for _ in range(T):
+for _ in range(test_cases):
     n,a,b = int(raw_input().strip()), int(raw_input().strip()), int(raw_input().strip())
     manasa(n,a,b)
